@@ -1,0 +1,552 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_icdm_delete_treat_plan_byid",
+      "children" : [ {
+        "name" : "TestDeleteTreatPlanByid",
+        "children" : [ {
+          "name" : "删除治疗方案接口的测试用例",
+          "uid" : "eee40078d6ae32ff",
+          "parentUid" : "6e3e19800e8e4f6c70aafa21a5de7d02",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390930758,
+            "stop" : 1616390930758,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6e3e19800e8e4f6c70aafa21a5de7d02"
+      } ],
+      "uid" : "642cb1abb7943f5c59db34b63983ad3e"
+    }, {
+      "name" : "test_icdm_diabetes_confirm",
+      "children" : [ {
+        "name" : "TestDiabetesConfirm",
+        "children" : [ {
+          "name" : "实时同步高血压确诊接口的测试用例",
+          "uid" : "15c2f134a0f5f469",
+          "parentUid" : "055506a43a51a7e00cd10b9f0f8b329d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390930989,
+            "stop" : 1616390930989,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "055506a43a51a7e00cd10b9f0f8b329d"
+      } ],
+      "uid" : "34f16657da7904a998e29f3c6bbee97c"
+    }, {
+      "name" : "test_icdm_diabetes_patient",
+      "children" : [ {
+        "name" : "TestDiabetesPatient",
+        "children" : [ {
+          "name" : "实时同步糖尿病高危、疑似接口的测试用例",
+          "uid" : "508a4cae04f8bfc6",
+          "parentUid" : "717e4d160d0fc042b1e97c5e53e24c5a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931041,
+            "stop" : 1616390931041,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "717e4d160d0fc042b1e97c5e53e24c5a"
+      } ],
+      "uid" : "4e13a33a33b359e2566ed97c3d31c074"
+    }, {
+      "name" : "test_icdm_districtinfo_by_user",
+      "children" : [ {
+        "name" : "TestDistrictInfoByUser",
+        "children" : [ {
+          "name" : "查询当前用户所在区划接口的测试用例",
+          "uid" : "912f68df9359c26",
+          "parentUid" : "2f1d978f3b2fb4d95c27ceda69e5b403",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931091,
+            "stop" : 1616390931091,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2f1d978f3b2fb4d95c27ceda69e5b403"
+      } ],
+      "uid" : "2dd1554fe7472219056b0f4f78d7ec69"
+    }, {
+      "name" : "test_icdm_dynamic_trend",
+      "children" : [ {
+        "name" : "TestDynamicTrend",
+        "children" : [ {
+          "name" : "查询患者动态趋势分布接口的测试用例",
+          "uid" : "d403f1c54f2c6832",
+          "parentUid" : "bf43e0d802bcbaaf8484d475d55b6545",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931170,
+            "stop" : 1616390931170,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bf43e0d802bcbaaf8484d475d55b6545"
+      } ],
+      "uid" : "f5a058c3462a9de29fd4b647bb59e669"
+    }, {
+      "name" : "test_icdm_hyper_confirm",
+      "children" : [ {
+        "name" : "TestHyperConfirm",
+        "children" : [ {
+          "name" : "实时同步高血压确诊接口的测试用例",
+          "uid" : "b4305eb9aa6b3d2f",
+          "parentUid" : "d6736ae2acf5e4d93cc71d2e5564cda2",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931224,
+            "stop" : 1616390931224,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6736ae2acf5e4d93cc71d2e5564cda2"
+      } ],
+      "uid" : "f0ff0a13e0c79202947ed5f21a4bd251"
+    }, {
+      "name" : "test_icdm_hyper_patient",
+      "children" : [ {
+        "name" : "TestHyperPatient",
+        "children" : [ {
+          "name" : "实时同步高血压高危、疑似接口的测试用例",
+          "uid" : "b71302aee4c31c2",
+          "parentUid" : "023ea341b503afd00c6d81160dc5985b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931290,
+            "stop" : 1616390931290,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "023ea341b503afd00c6d81160dc5985b"
+      } ],
+      "uid" : "92cb14d099398bf5802b2e4f62da632d"
+    }, {
+      "name" : "test_icdm_interaction_statistics",
+      "children" : [ {
+        "name" : "TestInteractionStatistics",
+        "children" : [ {
+          "name" : "系统联动总体分布统计接口的测试用例",
+          "uid" : "8c6434264282d7b7",
+          "parentUid" : "05ec29be7bf60307a8980a522c3583cd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931351,
+            "stop" : 1616390931351,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "05ec29be7bf60307a8980a522c3583cd"
+      } ],
+      "uid" : "8ace07e853008ee46c6100ca8bfcea29"
+    }, {
+      "name" : "test_icdm_manage_oderby_district",
+      "children" : [ {
+        "name" : "TestManageOderbyDistrict",
+        "children" : [ {
+          "name" : "查询各地区慢病患者管理排名接口的测试用例",
+          "uid" : "46f9fca7bafc232b",
+          "parentUid" : "d154cb6776d1a02387a38c68b8ddf2b5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931415,
+            "stop" : 1616390931415,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d154cb6776d1a02387a38c68b8ddf2b5"
+      } ],
+      "uid" : "d6796def83677353476a172418a026f6"
+    }, {
+      "name" : "test_icdm_org_of_query",
+      "children" : [ {
+        "name" : "TestOrgOfQuery",
+        "children" : [ {
+          "name" : "根据机构Id查询子级机构信息的测试用例",
+          "uid" : "24b6925d6bed54e2",
+          "parentUid" : "e2b45e72fd761ac69a3c094e73cd3850",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931476,
+            "stop" : 1616390931476,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e2b45e72fd761ac69a3c094e73cd3850"
+      } ],
+      "uid" : "a1e733f10d1161942b5071767936d71a"
+    }, {
+      "name" : "test_icdm_orgs_of_query",
+      "children" : [ {
+        "name" : "TestOrgsOfQuery",
+        "children" : [ {
+          "name" : "查询当前用户机构下拉列表初始化数据接口的测试用例",
+          "uid" : "9de3a4ff157eaf4d",
+          "parentUid" : "a3033b0f6170b110619a15c0b1de6910",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931535,
+            "stop" : 1616390931535,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a3033b0f6170b110619a15c0b1de6910"
+      } ],
+      "uid" : "bfea9a632974c1e7b8a6a5bd0026baa3"
+    }, {
+      "name" : "test_icdm_overall_statistics",
+      "children" : [ {
+        "name" : "TestOverallStatistics",
+        "children" : [ {
+          "name" : "查询慢病患者总体统计接口（地图）的测试用例",
+          "uid" : "1509a3cc816a5117",
+          "parentUid" : "8782aa95e9f2466bc07b952244341d0e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931613,
+            "stop" : 1616390931613,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8782aa95e9f2466bc07b952244341d0e"
+      } ],
+      "uid" : "b123c1edac7d4e363718230310cfd001"
+    }, {
+      "name" : "test_icdm_role_by_userid",
+      "children" : [ {
+        "name" : "TestRoleByUserId",
+        "children" : [ {
+          "name" : "查询当前登录用户角色信息接口的测试用例",
+          "uid" : "1b787dd343e12b37",
+          "parentUid" : "0ffe91c9cfbc179fc462192701724776",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931691,
+            "stop" : 1616390931691,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0ffe91c9cfbc179fc462192701724776"
+      } ],
+      "uid" : "f423793695b7685b5dfc062a31a85da5"
+    }, {
+      "name" : "test_icdm_role_by_zhuanjia",
+      "children" : [ {
+        "name" : "TestRoleByZhuanjia",
+        "children" : [ {
+          "name" : "查询所有专家角色信息接口的测试用例",
+          "uid" : "fd84c5ef88f2fe1c",
+          "parentUid" : "c6d6ef2476e05f4bf91a6bbe68276f73",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931788,
+            "stop" : 1616390931788,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c6d6ef2476e05f4bf91a6bbe68276f73"
+      } ],
+      "uid" : "bb8b66c5a7079b15517cbc6276ec2dbf"
+    }, {
+      "name" : "test_icdm_role_menu",
+      "children" : [ {
+        "name" : "TestRoleMenu",
+        "children" : [ {
+          "name" : "查询当前用户菜单字典接口的测试用例",
+          "uid" : "3ad84b4850223124",
+          "parentUid" : "dbb2744f6d71bc1c3c0bea894aa96c78",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931850,
+            "stop" : 1616390931850,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dbb2744f6d71bc1c3c0bea894aa96c78"
+      } ],
+      "uid" : "159cbc540e5ca557a43d8f703d5e59a1"
+    }, {
+      "name" : "test_icdm_select_medicine",
+      "children" : [ {
+        "name" : "TestSelectMedicine",
+        "children" : [ {
+          "name" : "查询药品列表接口的测试用例",
+          "uid" : "fd906875e5359c30",
+          "parentUid" : "ee78c1c710e2a89db3ebb8ae5051fc0e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931932,
+            "stop" : 1616390931932,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee78c1c710e2a89db3ebb8ae5051fc0e"
+      } ],
+      "uid" : "3e1a7afb3285733e90240b444b39ffe7"
+    }, {
+      "name" : "test_icdm_select_treat_planlist",
+      "children" : [ {
+        "name" : "TestSelectTreatPlanlist",
+        "children" : [ {
+          "name" : "查询治疗方案列表接口的测试用例",
+          "uid" : "281e935d5ee6762d",
+          "parentUid" : "9a196bd8cd633528b43b40b9e1465f25",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390931988,
+            "stop" : 1616390931988,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9a196bd8cd633528b43b40b9e1465f25"
+      } ],
+      "uid" : "2ed6a2fd65cb958d280719ef58bd4965"
+    }, {
+      "name" : "test_icdm_select_use_medicine_byid",
+      "children" : [ {
+        "name" : "TestSelectUseMedicineById",
+        "children" : [ {
+          "name" : "根据治疗方案id查询治疗方案详情接口的测试用例",
+          "uid" : "e89a8b274506f1a4",
+          "parentUid" : "7891041415acd80bd32e992d54a38e34",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932042,
+            "stop" : 1616390932042,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7891041415acd80bd32e992d54a38e34"
+      } ],
+      "uid" : "f4ae36f39ebf8ad141d2e852494e3d68"
+    }, {
+      "name" : "test_icdm_statistics_by_district",
+      "children" : [ {
+        "name" : "TestStatisticsByDistrict",
+        "children" : [ {
+          "name" : "查询各地区慢病患者统计接口的测试用例",
+          "uid" : "8c1ae18310ca1ad0",
+          "parentUid" : "131f7ecac3eaca50343a97f3d2e989d0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932095,
+            "stop" : 1616390932095,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "131f7ecac3eaca50343a97f3d2e989d0"
+      } ],
+      "uid" : "492c7568e3ab8d5746ed615526a2626a"
+    }, {
+      "name" : "test_icdm_trend_by_sexage",
+      "children" : [ {
+        "name" : "TestTrendBySexage",
+        "children" : [ {
+          "name" : "查询患者年龄性别分布接口的测试用例",
+          "uid" : "8b083b157de0b250",
+          "parentUid" : "e2b29388bf7a3672c3b059ea6a576e98",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932157,
+            "stop" : 1616390932157,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e2b29388bf7a3672c3b059ea6a576e98"
+      } ],
+      "uid" : "f80a0dda53bd98ee33a6d885ae3751e7"
+    }, {
+      "name" : "test_icdm_update_treat_plan_byid",
+      "children" : [ {
+        "name" : "TestUpdateTreatPlanById",
+        "children" : [ {
+          "name" : "新增/编辑治疗方案接口的测试用例",
+          "uid" : "2f1371886c27fb3d",
+          "parentUid" : "75efd38f1c3ee5296ae81d479499cf45",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932220,
+            "stop" : 1616390932220,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75efd38f1c3ee5296ae81d479499cf45"
+      } ],
+      "uid" : "e4d6f6233952778753a95866ba0dbbe1"
+    }, {
+      "name" : "test_jcgw_get_token",
+      "children" : [ {
+        "name" : "TestGetToken",
+        "children" : [ {
+          "name" : "获取token接口的测试用例",
+          "uid" : "3c5c4fce7013fb47",
+          "parentUid" : "4aa96a4395afafc44ae3e8f44a1fab3f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932286,
+            "stop" : 1616390932295,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'cun01', 'password': '123456'}" ]
+        }, {
+          "name" : "获取token接口的测试用例",
+          "uid" : "5990c115a66097cf",
+          "parentUid" : "4aa96a4395afafc44ae3e8f44a1fab3f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932384,
+            "stop" : 1616390932392,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'xiang01', 'password': '123456'}" ]
+        }, {
+          "name" : "获取token接口的测试用例",
+          "uid" : "a2f255183168b101",
+          "parentUid" : "4aa96a4395afafc44ae3e8f44a1fab3f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932441,
+            "stop" : 1616390932450,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'dsqwsj', 'password': '123456'}" ]
+        }, {
+          "name" : "获取token接口的测试用例",
+          "uid" : "bbc9135a68ee05c0",
+          "parentUid" : "4aa96a4395afafc44ae3e8f44a1fab3f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932505,
+            "stop" : 1616390932511,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'ordos', 'password': '123456'}" ]
+        } ],
+        "uid" : "4aa96a4395afafc44ae3e8f44a1fab3f"
+      } ],
+      "uid" : "6ed70d5067a38eeb46feaf6698ba0bde"
+    }, {
+      "name" : "test_jcgw_pos_emps",
+      "children" : [ {
+        "name" : "TestPosEmps",
+        "children" : [ {
+          "name" : "获取医卫人员信息接口的测试用例",
+          "uid" : "e5f3b2f1700e310e",
+          "parentUid" : "78d9ab0bacfa136d654b8027db25275d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932553,
+            "stop" : 1616390932553,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "78d9ab0bacfa136d654b8027db25275d"
+      } ],
+      "uid" : "68ebfa22338f45a17eb07e1fe683bc9b"
+    }, {
+      "name" : "test_jcgw_pos_sessions",
+      "children" : [ {
+        "name" : "TestPosSessions",
+        "children" : [ {
+          "name" : "获取当前登录用户信息接口的测试用例",
+          "uid" : "9c4a641f29bd44f8",
+          "parentUid" : "15de31af897508411b4fac84ef6bc08e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616390932617,
+            "stop" : 1616390932617,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "15de31af897508411b4fac84ef6bc08e"
+      } ],
+      "uid" : "cdb7210cd8cbde26e7323601704b8469"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

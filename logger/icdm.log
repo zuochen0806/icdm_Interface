@@ -1,0 +1,179 @@
+2021-03-22 13:28:50,842 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:50,844 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:50,844 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:50,845 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:50,855 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:50,855 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:50,855 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:50,990 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:50,990 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:50,990 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:50,990 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:50,996 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:50,996 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:50,996 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,042 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,042 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,043 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,043 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,049 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,050 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,050 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,092 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,092 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,092 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,093 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,104 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,104 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,104 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,171 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,172 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,172 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,172 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,178 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,178 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,178 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,224 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,224 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,224 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,224 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,232 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,232 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,232 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,290 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,291 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,291 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,291 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,298 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,298 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,299 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,352 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,352 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,352 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,352 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,359 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,359 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,359 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,417 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,417 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,417 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,417 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,424 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,424 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,424 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,477 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,477 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,477 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,477 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,486 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,486 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,487 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,535 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,535 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,535 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,536 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,542 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,543 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,543 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,613 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,614 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,614 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,614 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,621 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,621 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,621 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,692 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,692 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,692 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,693 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,700 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,700 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,700 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,788 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,789 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,789 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,789 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,796 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,796 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,796 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,853 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,853 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,853 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,853 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,860 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,860 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,861 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,933 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,933 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,933 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,933 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,940 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,940 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,941 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:51,988 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:51,989 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:51,989 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:51,989 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:51,995 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:51,995 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:51,995 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:52,044 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,045 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,045 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,045 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,052 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:52,052 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,052 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:52,096 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,097 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,097 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,097 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,104 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:52,104 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,104 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:52,158 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,158 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,159 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,159 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,167 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:52,167 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,167 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:52,220 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,220 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,220 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,220 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,229 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:52,229 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,229 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:52,284 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,285 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,286 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'cun01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,286 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：cun01,请求的密码是：123456
+2021-03-22 13:28:52,293 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,293 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-22 13:28:52,385 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,385 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,391 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,391 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-22 13:28:52,441 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'dsqwsj', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,441 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：dsqwsj,请求的密码是：123456
+2021-03-22 13:28:52,448 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,448 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-22 13:28:52,504 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'ordos', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,504 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：ordos,请求的密码是：123456
+2021-03-22 13:28:52,509 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,509 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-22 13:28:52,554 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,554 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,554 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,554 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,565 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:52,565 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,565 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-22 13:28:52,619 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-22 13:28:52,619 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-22 13:28:52,619 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-22 13:28:52,619 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-22 13:28:52,632 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-22 13:28:52,632 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [404]>
+2021-03-22 13:28:52,632 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:api_get_token.py:30 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'ordos', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+[32mINFO    [0m root:api_get_token.py:31 请求的用户名是：ordos,请求的密码是：123456
+[32mINFO    [0m root:api_get_token.py:34 获取的响应值是：<Response [404]>
+[32mINFO    [0m root:api_get_token.py:35 准备获取响应值的token

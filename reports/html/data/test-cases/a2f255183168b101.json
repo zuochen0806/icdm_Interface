@@ -1,0 +1,157 @@
+{
+  "uid" : "a2f255183168b101",
+  "name" : "获取token接口的测试用例",
+  "fullName" : "testcase.test_jcgw_get_token.TestGetToken#test_get_token",
+  "historyId" : "5f094489c3e682e6ad815f4e3cb096a1",
+  "time" : {
+    "start" : 1616390932441,
+    "stop" : 1616390932450,
+    "duration" : 9
+  },
+  "description" : "\n        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token\n        ",
+  "descriptionHtml" : "<pre><code>    测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "statusTrace" : "self = <testcase.test_jcgw_get_token.TestGetToken object at 0x000001EFDCCCF048>, dic = {'password': '123456', 'username': 'dsqwsj'}\n\n    @allure.severity(allure.severity_level.BLOCKER)\n    @allure.story('用户密码正确，成功获取token')\n    @allure.title('获取token接口的测试用例')\n    # @allure.testcase('http:''www.baicu.com')\n    # @allure.step('测试成功获取token')\n    @pytest.mark.parametrize('dic', data_li)\n    def test_get_token(self, dic):\n        '''\n        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token\n        '''\n        # 读取数据，进行构造data,然后发起请求\n        data = {'username': dic['username'], 'password': dic['password']}\n        with allure.step('1.输入用户名：{} 2.输入密码：{} 3.点击登录按钮'.format(dic['username'], dic['password'])):\n>           response = self.gettoken_object.get_token(self.session, data).json()\n\ntestcase\\test_jcgw_get_token.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \napi\\api_get_token.py:37: in get_token\n    setting.access_token = response.json().get('access_token')  # 产生数据，并把数据放到setting当中\nd:\\anaconda3\\lib\\site-packages\\requests\\models.py:900: in json\n    return complexjson.loads(self.text, **kwargs)\nd:\\anaconda3\\lib\\json\\__init__.py:348: in loads\n    return _default_decoder.decode(s)\nd:\\anaconda3\\lib\\json\\decoder.py:337: in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <json.decoder.JSONDecoder object at 0x000001EFA284F160>\ns = '<!doctype html><html lang=\"en\"><head><title>HTTP Status 404 – Not Found</title><style type=\"text/css\">h1 {font-family...ource or is not willing to disclose that one exists.</p><hr class=\"line\" /><h3>Apache Tomcat/8.5.41</h3></body></html>'\nidx = 0\n\n    def raw_decode(self, s, idx=0):\n        \"\"\"Decode a JSON document from ``s`` (a ``str`` beginning with\n        a JSON document) and return a 2-tuple of the Python\n        representation and the index in ``s`` where the document ended.\n    \n        This can be used to decode a JSON document from a string that may\n        have extraneous data at the end.\n    \n        \"\"\"\n        try:\n            obj, end = self.scan_once(s, idx)\n        except StopIteration as err:\n>           raise JSONDecodeError(\"Expecting value\", s, err.value) from None\nE           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nd:\\anaconda3\\lib\\json\\decoder.py:355: JSONDecodeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616390932285,
+      "stop" : 1616390932286,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1616390930760,
+      "stop" : 1616390930843,
+      "duration" : 83
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token\n        ",
+    "status" : "broken",
+    "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "statusTrace" : "self = <testcase.test_jcgw_get_token.TestGetToken object at 0x000001EFDCCCF048>, dic = {'password': '123456', 'username': 'dsqwsj'}\n\n    @allure.severity(allure.severity_level.BLOCKER)\n    @allure.story('用户密码正确，成功获取token')\n    @allure.title('获取token接口的测试用例')\n    # @allure.testcase('http:''www.baicu.com')\n    # @allure.step('测试成功获取token')\n    @pytest.mark.parametrize('dic', data_li)\n    def test_get_token(self, dic):\n        '''\n        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token\n        '''\n        # 读取数据，进行构造data,然后发起请求\n        data = {'username': dic['username'], 'password': dic['password']}\n        with allure.step('1.输入用户名：{} 2.输入密码：{} 3.点击登录按钮'.format(dic['username'], dic['password'])):\n>           response = self.gettoken_object.get_token(self.session, data).json()\n\ntestcase\\test_jcgw_get_token.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \napi\\api_get_token.py:37: in get_token\n    setting.access_token = response.json().get('access_token')  # 产生数据，并把数据放到setting当中\nd:\\anaconda3\\lib\\site-packages\\requests\\models.py:900: in json\n    return complexjson.loads(self.text, **kwargs)\nd:\\anaconda3\\lib\\json\\__init__.py:348: in loads\n    return _default_decoder.decode(s)\nd:\\anaconda3\\lib\\json\\decoder.py:337: in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <json.decoder.JSONDecoder object at 0x000001EFA284F160>\ns = '<!doctype html><html lang=\"en\"><head><title>HTTP Status 404 – Not Found</title><style type=\"text/css\">h1 {font-family...ource or is not willing to disclose that one exists.</p><hr class=\"line\" /><h3>Apache Tomcat/8.5.41</h3></body></html>'\nidx = 0\n\n    def raw_decode(self, s, idx=0):\n        \"\"\"Decode a JSON document from ``s`` (a ``str`` beginning with\n        a JSON document) and return a 2-tuple of the Python\n        representation and the index in ``s`` where the document ended.\n    \n        This can be used to decode a JSON document from a string that may\n        have extraneous data at the end.\n    \n        \"\"\"\n        try:\n            obj, end = self.scan_once(s, idx)\n        except StopIteration as err:\n>           raise JSONDecodeError(\"Expecting value\", s, err.value) from None\nE           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nd:\\anaconda3\\lib\\json\\decoder.py:355: JSONDecodeError",
+    "steps" : [ {
+      "name" : "1.输入用户名：dsqwsj 2.输入密码：123456 3.点击登录按钮",
+      "time" : {
+        "start" : 1616390932442,
+        "stop" : 1616390932449,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "statusTrace" : "  File \"E:\\py-auto\\icdm_Interface\\testcase\\test_jcgw_get_token.py\", line 39, in test_get_token\n    response = self.gettoken_object.get_token(self.session, data).json()\n  File \"E:\\py-auto\\icdm_Interface\\api\\api_get_token.py\", line 37, in get_token\n    setting.access_token = response.json().get('access_token')  # 产生数据，并把数据放到setting当中\n  File \"d:\\anaconda3\\lib\\site-packages\\requests\\models.py\", line 900, in json\n    return complexjson.loads(self.text, **kwargs)\n  File \"d:\\anaconda3\\lib\\json\\__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"d:\\anaconda3\\lib\\json\\decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"d:\\anaconda3\\lib\\json\\decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "53799c2b2d80c515",
+      "name" : "log",
+      "source" : "53799c2b2d80c515.txt",
+      "type" : "text/plain",
+      "size" : 626
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616390932550,
+      "stop" : 1616390932550,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用户密码正确，成功获取token"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_jcgw_get_token"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetToken"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E36IH3B"
+  }, {
+    "name" : "thread",
+    "value" : "19336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_jcgw_get_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dic",
+    "value" : "{'username': 'dsqwsj', 'password': '123456'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a2f255183168b101.json",
+  "parameterValues" : [ "{'username': 'dsqwsj', 'password': '123456'}" ]
+}

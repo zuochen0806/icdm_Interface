@@ -1,0 +1,105 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_hyper_patient","TestHyperPatient","","","实时同步高血压高危、疑似接口的测试用例","
+        测试第三方接口是否能够实时同步高血压高危、疑似患者
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","0","testcase","test_icdm_trend_by_sexage","TestTrendBySexage","","","查询患者年龄性别分布接口的测试用例","
+        测试是否能够查询患者年龄性别分布
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_interaction_statistics","TestInteractionStatistics","","","系统联动总体分布统计接口的测试用例","
+        测试是否能够获取系统联动总体分布统计
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","8","testcase","test_jcgw_get_token","TestGetToken","","","获取token接口的测试用例","
+        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token
+        "
+"broken","Mon Mar 22 13:28:50 CST 2021","Mon Mar 22 13:28:50 CST 2021","0","testcase","test_icdm_delete_treat_plan_byid","TestDeleteTreatPlanByid","","","删除治疗方案接口的测试用例","
+        测试是否能够删除治疗方案（支持批量）
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_districtinfo_by_user","TestDistrictInfoByUser","","","查询当前用户所在区划接口的测试用例","
+        测试是否能够查询当前用户所在区划
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_org_of_query","TestOrgOfQuery","","","根据机构Id查询子级机构信息的测试用例","
+        测试是否能够根据机构Id查询子级机构信息
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_select_medicine","TestSelectMedicine","","","查询药品列表接口的测试用例","
+        测试是否能够查询药品列表
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_select_treat_planlist","TestSelectTreatPlanlist","","","查询治疗方案列表接口的测试用例","
+        测试是否能够查询治疗方案列表
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_role_by_zhuanjia","TestRoleByZhuanjia","","","查询所有专家角色信息接口的测试用例","
+        测试是否能够查询所有专家角色信息
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","0","testcase","test_jcgw_pos_sessions","TestPosSessions","","","获取当前登录用户信息接口的测试用例","
+        测试是否能够获取当前用户信息
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","6","testcase","test_jcgw_get_token","TestGetToken","","","获取token接口的测试用例","
+        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_overall_statistics","TestOverallStatistics","","","查询慢病患者总体统计接口（地图）的测试用例","
+        测试是否能够查询慢病患者总体统计（地图）
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","9","testcase","test_jcgw_get_token","TestGetToken","","","获取token接口的测试用例","
+        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","0","testcase","test_icdm_update_treat_plan_byid","TestUpdateTreatPlanById","","","新增/编辑治疗方案接口的测试用例","
+        测试是否能够新增/编辑治疗方案接口
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","0","testcase","test_jcgw_pos_emps","TestPosEmps","","","获取医卫人员信息接口的测试用例","
+        测试是否能够获取医卫人员信息信息
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_role_menu","TestRoleMenu","","","查询当前用户菜单字典接口的测试用例","
+        测试是否能够查询当前用户菜单字典
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","0","testcase","test_icdm_statistics_by_district","TestStatisticsByDistrict","","","查询各地区慢病患者统计接口的测试用例","
+        测试是否能够查询各地区慢病患者统计
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_diabetes_patient","TestDiabetesPatient","","","实时同步糖尿病高危、疑似接口的测试用例","
+        测试第三方接口是否能够实时同步糖尿病高危、疑似患者
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_manage_oderby_district","TestManageOderbyDistrict","","","查询各地区慢病患者管理排名接口的测试用例","
+        测试是否能够查询各地区慢病患者管理排名
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_role_by_userid","TestRoleByUserId","","","查询当前登录用户角色信息接口的测试用例","
+        测试是否能够查询当前登录用户角色信息
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","0","testcase","test_icdm_select_use_medicine_byid","TestSelectUseMedicineById","","","根据治疗方案id查询治疗方案详情接口的测试用例","
+        测试是否能够根据治疗方案id查询治疗方案详情
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:50 CST 2021","Mon Mar 22 13:28:50 CST 2021","0","testcase","test_icdm_diabetes_confirm","TestDiabetesConfirm","","","实时同步高血压确诊接口的测试用例","
+        测试第三方接口是否能够实时同步糖尿病确诊患者
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_hyper_confirm","TestHyperConfirm","","","实时同步高血压确诊接口的测试用例","
+        测试第三方接口是否能够实时同步高血压确诊患者
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_orgs_of_query","TestOrgsOfQuery","","","查询当前用户机构下拉列表初始化数据接口的测试用例","
+        测试是否能够获取当前用户机构下拉列表初始化数据
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:51 CST 2021","Mon Mar 22 13:28:51 CST 2021","0","testcase","test_icdm_dynamic_trend","TestDynamicTrend","","","查询患者动态趋势分布接口的测试用例","
+        测试是否能够查询患者动态趋势分布
+        前置：成功获取token
+        "
+"broken","Mon Mar 22 13:28:52 CST 2021","Mon Mar 22 13:28:52 CST 2021","9","testcase","test_jcgw_get_token","TestGetToken","","","获取token接口的测试用例","
+        测试获取token功能，用户使用不同的账号成功登录后均可正常获取正确的token
+        "

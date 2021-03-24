@@ -1,0 +1,356 @@
+2021-03-16 13:57:24,396 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:24,398 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:24,398 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:24,399 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:24,422 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:24,422 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,422 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:24,422 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:24,422 INFO [root] [api_select_treat_planlist.py (__init__:17] - 开始获取<查询治疗方案列表接口（分页）>的url地址：
+2021-03-16 13:57:24,422 INFO [root] [api_select_treat_planlist.py (__init__:20] - <查询治疗方案列表接口（分页）>的url地址为：http://192.168.8.230:8083/icdm-controller/treatPlan/selectTreatPlanList/
+2021-03-16 13:57:24,422 INFO [root] [api_select_treat_planlist.py (select_treat_planlist:29] - 准备发起<查询治疗方案列表接口（分页）>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:24,571 INFO [root] [api_select_treat_planlist.py (select_treat_planlist:32] - 请求的url是：http://192.168.8.230:8083/icdm-controller/treatPlan/selectTreatPlanList/
+2021-03-16 13:57:24,572 INFO [root] [api_select_treat_planlist.py (select_treat_planlist:33] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,572 INFO [root] [api_delete_treat_plan_byid.py (__init__:17] - 开始获取<删除治疗方案接口（支持批量）>的url地址：
+2021-03-16 13:57:24,572 INFO [root] [api_delete_treat_plan_byid.py (__init__:20] - <删除治疗方案接口（支持批量）>的url地址为：http://192.168.8.230:8083/icdm-controller/treatPlan/deleteTreatPlanById/
+2021-03-16 13:57:24,574 INFO [root] [api_delete_treat_plan_byid.py (delete_treat_plan_byid:26] - 准备发起<删除治疗方案接口（支持批量）>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:24,639 INFO [root] [api_delete_treat_plan_byid.py (delete_treat_plan_byid:29] - 请求的url是：http://192.168.8.230:8083/icdm-controller/treatPlan/deleteTreatPlanById/
+2021-03-16 13:57:24,639 INFO [root] [api_delete_treat_plan_byid.py (delete_treat_plan_byid:30] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,644 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:24,644 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:24,644 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:24,644 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:24,669 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:24,669 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,670 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:24,670 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:24,670 INFO [root] [api_diabetes_confirm.py (__init__:17] - 开始获取实时同步糖尿病确诊接口的url地址：
+2021-03-16 13:57:24,671 INFO [root] [api_diabetes_confirm.py (__init__:20] - 实时同步糖尿病确诊接口的url地址为：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncDiabetesConfirm
+2021-03-16 13:57:24,673 INFO [root] [api_diabetes_confirm.py (diabetes_confirm:87] - 准备发起实时同步糖尿病确诊接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'personInfoId': None, 'personInfoNo': None, 'name': '糖尿病确诊2', 'sexCode': '1', 'drinking': '10', 'age': '25', 'sbp': '121', 'dbp': '80', 'bmi': '100', 'waist': '55', 'outerPersonId': '', 'patientStatus': '3', 'respDoctorId': '', 'respDoctorName': '', 'symptomCode': '', 'symptomValue': '', 'stapleFood': '', 'isSmoking': '', 'isDrinking': '', 'dailySmoking': '', 'exerciseDurationMins': '', 'exerciseDurationTime': '', 'birthday': '2007-03-07', 'idNo': '11022919280101265X', 'committee': None, 'residenceTypeCode': '1', 'nationalityCode': '01', 'nationalityValue': None, 'aboCode': '1', 'educationCode': '1', 'marriageCode': '1', 'fixedPhones': '2323', 'statusCode': '2', 'deathDate': None, 'systemSource': '1', 'address': '东胜区建设街道办事处郝家圪卜村委会', 'createOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'orgName': '建设社区卫生服务中心', 'creatorId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'creator': '建设社区', 'createTime': '2020-11-19 00:00:00', 'modifiedOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'modifiedOrgName': '建设社区卫生服务中心', 'modifierId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'modifier': '建设社区', 'modifiedTime': '2020-11-19 15:15:00', 'householdAddress': '东胜区建设街道办事处郝家圪卜村委会', 'formerName': None, 'workUnit': None, 'contactName': '45454', 'contactTelNo': '56565', 'householdTypeCode': None, 'rhCode': '3', 'educationValue': None, 'paperArchiveDate': '2020-11-18', 'paperCardNum': None, 'hyperConfirmedDate': None, 'diabetesConfirmedDate': None, 'familyDoctorId': None, 'familyDoctorName': None}
+2021-03-16 13:57:24,766 INFO [root] [api_diabetes_confirm.py (diabetes_confirm:90] - 请求的url是：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncDiabetesConfirm
+2021-03-16 13:57:24,767 INFO [root] [api_diabetes_confirm.py (diabetes_confirm:91] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,775 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:24,775 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:24,775 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:24,775 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:24,797 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:24,797 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,797 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:24,797 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:24,797 INFO [root] [api_diabetes_patient.py (__init__:17] - 开始获取实时同步糖尿病高危、疑似接口的url地址：
+2021-03-16 13:57:24,797 INFO [root] [api_diabetes_patient.py (__init__:20] - 实时同步糖尿病高危、疑似接口的url地址为：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncDiabetesPatient
+2021-03-16 13:57:24,798 INFO [root] [api_diabetes_patient.py (diabetes_patient:89] - 准备发起实时同步糖尿病高危、疑似接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'personInfoId': 'ff80808175b9fe730175baf0b54c0398', 'personInfoNo': '15060200400700694', 'name': '1112S1', 'sexCode': '1', 'drinking': '10', 'age': '30', 'sbp': '121', 'dbp': '80', 'bmi': '100', 'waist': '55', 'outerPersonId': '', 'patientStatus': '1', 'respDoctorId': '', 'respDoctorName': '', 'symptomCode': '', 'symptomValue': '', 'stapleFood': '', 'isSmoking': '', 'isDrinking': '', 'dailySmoking': '', 'exerciseDurationMins': '', 'exerciseDurationTime': '', 'birthday': '1990-03-07', 'idNo': '11022919280101011X', 'committee': None, 'residenceTypeCode': '1', 'nationalityCode': '01', 'nationalityValue': None, 'aboCode': '1', 'educationCode': '1', 'marriageCode': '1', 'fixedPhones': '2323', 'hypertensionType': '1', 'diabetesType': None, 'statusCode': '2', 'deathDate': None, 'systemSource': None, 'address': '东胜区建设街道办事处郝家圪卜社区郝家圪卜社区辖组', 'createOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'orgName': '建设社区卫生服务中心', 'creatorId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'creator': '建设社区', 'createTime': '2020-11-26 00:00:00', 'modifiedOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'modifiedOrgName': '建设社区卫生服务中心', 'modifierId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'modifier': '建设社区', 'modifiedTime': '2020-11-26 15:15:00', 'householdAddress': '东胜区建设街道办事处郝家圪卜社区郝家圪卜社区辖组', 'formerName': None, 'workUnit': None, 'contactName': '1212', 'contactTelNo': '1212', 'householdTypeCode': None, 'rhCode': '3', 'educationValue': None, 'paperArchiveDate': '2020-11-26', 'paperCardNum': None, 'hyperConfirmedDate': None, 'diabetesConfirmedDate': None, 'familyDoctorId': None, 'familyDoctorName': None}
+2021-03-16 13:57:24,823 INFO [root] [api_diabetes_patient.py (diabetes_patient:92] - 请求的url是：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncDiabetesPatient
+2021-03-16 13:57:24,823 INFO [root] [api_diabetes_patient.py (diabetes_patient:93] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,829 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:24,829 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:24,829 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:24,829 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:24,851 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:24,851 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,851 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:24,851 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:24,851 INFO [root] [api_districtinfo_by_user.py (__init__:17] - 开始获取<查询当前用户所在区划接口>的url地址：
+2021-03-16 13:57:24,851 INFO [root] [api_districtinfo_by_user.py (__init__:20] - <查询当前用户所在区划接口>的url地址为：http://192.168.8.230:8083/icdm-controller/district/getDistrictInfoByUser/
+2021-03-16 13:57:24,852 INFO [root] [api_districtinfo_by_user.py (districtinfo_by_user:25] - 准备发起<查询当前用户所在区划接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:24,967 INFO [root] [api_districtinfo_by_user.py (districtinfo_by_user:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/district/getDistrictInfoByUser/
+2021-03-16 13:57:24,968 INFO [root] [api_districtinfo_by_user.py (districtinfo_by_user:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,972 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:24,972 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:24,972 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:24,972 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:24,994 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:24,994 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:24,994 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:24,994 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:24,994 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:24,994 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:24,994 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:25,004 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,004 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,004 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:25,004 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:25,004 INFO [root] [api_dynamic_trend.py (__init__:17] - 开始获取<查询患者动态趋势分布接口>的url地址：
+2021-03-16 13:57:25,004 INFO [root] [api_dynamic_trend.py (__init__:20] - <查询患者动态趋势分布接口>的url地址为：http://192.168.8.230:8083/icdm-controller/dataBoard/patientDynamicTrend/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:25,005 INFO [root] [api_dynamic_trend.py (dynamic_trend:25] - 准备发起<查询患者动态趋势分布接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:25,280 INFO [root] [api_dynamic_trend.py (dynamic_trend:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/dataBoard/patientDynamicTrend/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:25,280 INFO [root] [api_dynamic_trend.py (dynamic_trend:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,300 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:25,300 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:25,300 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:25,300 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:25,323 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:25,323 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,324 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:25,324 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,324 INFO [root] [api_hyper_confirm.py (__init__:17] - 开始获取实时同步高血压确诊接口的url地址：
+2021-03-16 13:57:25,324 INFO [root] [api_hyper_confirm.py (__init__:20] - 实时同步高血压确诊接口的url地址为：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncHyperConfirm
+2021-03-16 13:57:25,326 INFO [root] [api_hyper_confirm.py (hyper_confirm:87] - 准备发起实时同步高血压确诊接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'personInfoId': None, 'personInfoNo': None, 'name': '糖尿病确诊2', 'sexCode': '1', 'drinking': '10', 'age': '25', 'sbp': '121', 'dbp': '80', 'bmi': '100', 'waist': '55', 'outerPersonId': '', 'patientStatus': '3', 'respDoctorId': '', 'respDoctorName': '', 'symptomCode': '', 'symptomValue': '', 'stapleFood': '', 'isSmoking': '', 'isDrinking': '', 'dailySmoking': '', 'exerciseDurationMins': '', 'exerciseDurationTime': '', 'birthday': '2007-03-07', 'idNo': '11022919280101265X', 'committee': '', 'residenceTypeCode': '1', 'nationalityCode': '01', 'nationalityValue': '', 'aboCode': '1', 'educationCode': '1', 'marriageCode': '1', 'fixedPhones': '2323', 'statusCode': '2', 'deathDate': '', 'systemSource': '1', 'address': '东胜区建设街道办事处郝家圪卜村委会', 'createOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'orgName': '建设社区卫生服务中心', 'creatorId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'creator': '建设社区', 'createTime': '2020-11-19 00:00:00', 'modifiedOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'modifiedOrgName': '建设社区卫生服务中心', 'modifierId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'modifier': '建设社区', 'modifiedTime': '2020-11-19 15:15:00', 'householdAddress': '东胜区建设街道办事处郝家圪卜村委会', 'formerName': '', 'workUnit': '', 'contactName': '45454', 'contactTelNo': '56565', 'householdTypeCode': '', 'rhCode': '3', 'educationValue': '', 'paperArchiveDate': '2020-11-18', 'paperCardNum': '', 'hyperConfirmedDate': '', 'diabetesConfirmedDate': '', 'familyDoctorId': '', 'familyDoctorName': ''}
+2021-03-16 13:57:25,375 INFO [root] [api_hyper_confirm.py (hyper_confirm:90] - 请求的url是：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncHyperConfirm
+2021-03-16 13:57:25,376 INFO [root] [api_hyper_confirm.py (hyper_confirm:91] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,386 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:25,386 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:25,387 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:25,387 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:25,409 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:25,409 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,410 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:25,410 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,410 INFO [root] [api_hyper_patient.py (__init__:17] - 开始获取实时同步高血压高危、疑似接口的url地址：
+2021-03-16 13:57:25,410 INFO [root] [api_hyper_patient.py (__init__:20] - 实时同步高血压高危、疑似接口的url地址为：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncHyperPatient
+2021-03-16 13:57:25,412 INFO [root] [api_hyper_patient.py (hyper_patient:89] - 准备发起实时同步高血压高危、疑似接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'personInfoId': 'ff80808175b9fe730175baf0b54c0398', 'personInfoNo': '15060200400700694', 'name': '1112S1', 'sexCode': '1', 'drinking': '10', 'age': '30', 'sbp': '121', 'dbp': '80', 'bmi': '100', 'waist': '55', 'outerPersonId': '', 'patientStatus': '1', 'respDoctorId': '', 'respDoctorName': '', 'symptomCode': '', 'symptomValue': '', 'stapleFood': '', 'isSmoking': '', 'isDrinking': '', 'dailySmoking': '', 'exerciseDurationMins': '', 'exerciseDurationTime': '', 'birthday': '1990-03-07', 'idNo': '11022919280101011X', 'committee': None, 'residenceTypeCode': '1', 'nationalityCode': '01', 'nationalityValue': None, 'aboCode': '1', 'educationCode': '1', 'marriageCode': '1', 'fixedPhones': '2323', 'hypertensionType': '1', 'diabetesType': None, 'statusCode': '2', 'deathDate': None, 'systemSource': None, 'address': '东胜区建设街道办事处郝家圪卜社区郝家圪卜社区辖组', 'createOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'orgName': '建设社区卫生服务中心', 'creatorId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'creator': '建设社区', 'createTime': '2020-11-26 00:00:00', 'modifiedOrgId': '60f5462b-2b4f-4cad-9645-83e1be0af87f', 'modifiedOrgName': '建设社区卫生服务中心', 'modifierId': '939b2dcd-3851-43ac-bfb8-a421ad2d4306', 'modifier': '建设社区', 'modifiedTime': '2020-11-26 15:15:00', 'householdAddress': '东胜区建设街道办事处郝家圪卜社区郝家圪卜社区辖组', 'formerName': None, 'workUnit': None, 'contactName': '1212', 'contactTelNo': '1212', 'householdTypeCode': None, 'rhCode': '3', 'educationValue': None, 'paperArchiveDate': '2020-11-26', 'paperCardNum': None, 'hyperConfirmedDate': None, 'diabetesConfirmedDate': None, 'familyDoctorId': None, 'familyDoctorName': None}
+2021-03-16 13:57:25,758 INFO [root] [api_hyper_patient.py (hyper_patient:92] - 请求的url是：http://192.168.8.230:8083/icdm-controller/yfrhApi/syncHyperPatient
+2021-03-16 13:57:25,758 INFO [root] [api_hyper_patient.py (hyper_patient:93] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,782 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:25,783 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:25,783 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:25,783 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:25,805 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:25,805 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,805 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:25,805 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,805 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:25,805 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:25,805 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:25,814 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,814 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,814 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:25,815 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:25,815 INFO [root] [api_interaction_statistics.py (__init__:17] - 开始获取<系统联动总体分布统计接口>的url地址：
+2021-03-16 13:57:25,815 INFO [root] [api_interaction_statistics.py (__init__:20] - <系统联动总体分布统计接口>的url地址为：http://192.168.8.230:8083/icdm-controller/dataBoard/systemInteractionStatistics/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:25,815 INFO [root] [api_interaction_statistics.py (interaction_statistics:25] - 准备发起<系统联动总体分布统计接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:25,922 INFO [root] [api_interaction_statistics.py (interaction_statistics:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/dataBoard/systemInteractionStatistics/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:25,922 INFO [root] [api_interaction_statistics.py (interaction_statistics:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,928 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:25,928 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:25,928 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:25,928 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:25,949 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:25,949 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,949 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:25,949 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,949 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:25,949 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:25,949 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:25,959 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:25,959 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:25,959 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:25,959 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:25,959 INFO [root] [api_manage_oderby_district.py (__init__:17] - 开始获取<查询各地区慢病患者管理排名接口>的url地址：
+2021-03-16 13:57:25,959 INFO [root] [api_manage_oderby_district.py (__init__:20] - <查询各地区慢病患者管理排名接口>的url地址为：http://192.168.8.230:8083/icdm-controller/dataBoard/patientManageOderByDistrict/9b292f05-20e7-4070-97a7-2f4e3199171b/1
+2021-03-16 13:57:25,960 INFO [root] [api_manage_oderby_district.py (manage_oderby_district:25] - 准备发起<查询各地区慢病患者管理排名接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,015 INFO [root] [api_manage_oderby_district.py (manage_oderby_district:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/dataBoard/patientManageOderByDistrict/9b292f05-20e7-4070-97a7-2f4e3199171b/1
+2021-03-16 13:57:26,015 INFO [root] [api_manage_oderby_district.py (manage_oderby_district:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,019 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,019 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,019 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,019 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,041 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,041 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,042 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,042 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,042 INFO [root] [api_orgs_of_query.py (__init__:17] - 开始获取<查询当前用户机构下拉列表初始化数据接口>的url地址：
+2021-03-16 13:57:26,042 INFO [root] [api_orgs_of_query.py (__init__:20] - <查询当前用户机构下拉列表初始化数据接口>的url地址为：http://192.168.8.230:8083/icdm-controller/org/initOrgOfQuery
+2021-03-16 13:57:26,042 INFO [root] [api_orgs_of_query.py (orgs_of_query:25] - 准备发起<查询当前用户机构下拉列表初始化数据接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,214 INFO [root] [api_orgs_of_query.py (orgs_of_query:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/org/initOrgOfQuery
+2021-03-16 13:57:26,214 INFO [root] [api_orgs_of_query.py (orgs_of_query:30] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,214 INFO [root] [api_org_of_query.py (__init__:17] - 开始获取<根据机构Id查询子级机构信息>的url地址：
+2021-03-16 13:57:26,214 INFO [root] [api_org_of_query.py (__init__:20] - <根据机构Id查询子级机构信息>的url地址为：http://192.168.8.230:8083/icdm-controller/org/initOrgOfQuery
+2021-03-16 13:57:26,215 INFO [root] [api_org_of_query.py (org_of_query:26] - 准备发起<根据机构Id查询子级机构信息>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'organizationId': '60f5462b-2b4f-4cad-9645-83e1be0af87f'}
+2021-03-16 13:57:26,243 INFO [root] [api_org_of_query.py (org_of_query:29] - 请求的url是：http://192.168.8.230:8083/icdm-controller/org/initOrgOfQuery?organizationId=60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:26,243 INFO [root] [api_org_of_query.py (org_of_query:30] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,248 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,249 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,249 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,249 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,270 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,270 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,270 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,270 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,270 INFO [root] [api_orgs_of_query.py (__init__:17] - 开始获取<查询当前用户机构下拉列表初始化数据接口>的url地址：
+2021-03-16 13:57:26,270 INFO [root] [api_orgs_of_query.py (__init__:20] - <查询当前用户机构下拉列表初始化数据接口>的url地址为：http://192.168.8.230:8083/icdm-controller/org/initOrgOfQuery
+2021-03-16 13:57:26,271 INFO [root] [api_orgs_of_query.py (orgs_of_query:25] - 准备发起<查询当前用户机构下拉列表初始化数据接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,300 INFO [root] [api_orgs_of_query.py (orgs_of_query:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/org/initOrgOfQuery
+2021-03-16 13:57:26,300 INFO [root] [api_orgs_of_query.py (orgs_of_query:30] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,304 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,304 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,304 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,304 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,324 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,324 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,324 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,324 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,324 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:26,324 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:26,325 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,333 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,334 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,334 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:26,334 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:26,334 INFO [root] [api_overall_statistics.py (__init__:17] - 开始获取<查询慢病患者总体统计接口（地图）>的url地址：
+2021-03-16 13:57:26,334 INFO [root] [api_overall_statistics.py (__init__:20] - <查询慢病患者总体统计接口（地图）>的url地址为：http://192.168.8.230:8083/icdm-controller/dataBoard/patientOverallStatistics/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:26,334 INFO [root] [api_overall_statistics.py (overall_statistics:25] - 准备发起<查询慢病患者总体统计接口（地图）>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,358 INFO [root] [api_overall_statistics.py (overall_statistics:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/dataBoard/patientOverallStatistics/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:26,358 INFO [root] [api_overall_statistics.py (overall_statistics:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,363 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,363 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,363 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,364 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,384 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,384 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,384 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,384 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,384 INFO [root] [api_role_by_userid.py (__init__:17] - 开始获取<查询当前登录用户角色信息接口>的url地址：
+2021-03-16 13:57:26,384 INFO [root] [api_role_by_userid.py (__init__:20] - <查询当前登录用户角色信息接口>的url地址为：http://192.168.8.230:8083/icdm-controller/role/selectRoleByUserId/
+2021-03-16 13:57:26,384 INFO [root] [api_role_by_userid.py (role_by_userid:25] - 准备发起<查询当前登录用户角色信息接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,403 INFO [root] [api_role_by_userid.py (role_by_userid:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/role/selectRoleByUserId/
+2021-03-16 13:57:26,404 INFO [root] [api_role_by_userid.py (role_by_userid:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,413 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,413 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,413 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,413 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,436 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,436 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,437 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,437 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,437 INFO [root] [api_role_by_zhuanjia.py (__init__:17] - 开始获取<查询所有专家角色信息接口>的url地址：
+2021-03-16 13:57:26,437 INFO [root] [api_role_by_zhuanjia.py (__init__:20] - <查询所有专家角色信息接口>的url地址为：http://192.168.8.230:8083/icdm-controller/role/selectAllZhuanJiaRole/
+2021-03-16 13:57:26,438 INFO [root] [api_role_by_zhuanjia.py (role_by_zhuanjia:25] - 准备发起<查询所有专家角色信息接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,507 INFO [root] [api_role_by_zhuanjia.py (role_by_zhuanjia:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/role/selectAllZhuanJiaRole/
+2021-03-16 13:57:26,508 INFO [root] [api_role_by_zhuanjia.py (role_by_zhuanjia:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,518 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,518 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,518 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,519 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,542 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,542 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,543 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,543 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,543 INFO [root] [api_role_menu.py (__init__:17] - 开始获取<查询当前用户菜单字典接口>的url地址：
+2021-03-16 13:57:26,543 INFO [root] [api_role_menu.py (__init__:20] - <查询当前用户菜单字典接口>的url地址为：http://192.168.8.230:8083/icdm-controller/menu/selectRoleMenu/
+2021-03-16 13:57:26,545 INFO [root] [api_role_menu.py (role_menu:25] - 准备发起<查询当前用户菜单字典接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,569 INFO [root] [api_role_menu.py (role_menu:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/menu/selectRoleMenu/
+2021-03-16 13:57:26,569 INFO [root] [api_role_menu.py (role_menu:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,580 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,580 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,580 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,580 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,604 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,605 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,605 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,605 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,605 INFO [root] [api_select_medicine.py (__init__:17] - 开始获取<查询药品列表接口>的url地址：
+2021-03-16 13:57:26,605 INFO [root] [api_select_medicine.py (__init__:20] - <查询药品列表接口>的url地址为：http://192.168.8.230:8083/icdm-controller/medicine/selectMedicine/
+2021-03-16 13:57:26,607 INFO [root] [api_select_medicine.py (select_medicine:26] - 准备发起<查询药品列表接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,681 INFO [root] [api_select_medicine.py (select_medicine:29] - 请求的url是：http://192.168.8.230:8083/icdm-controller/medicine/selectMedicine/
+2021-03-16 13:57:26,681 INFO [root] [api_select_medicine.py (select_medicine:30] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,698 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,698 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,699 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,699 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,721 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,721 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,721 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,721 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,721 INFO [root] [api_select_treat_planlist.py (__init__:17] - 开始获取<查询治疗方案列表接口（分页）>的url地址：
+2021-03-16 13:57:26,721 INFO [root] [api_select_treat_planlist.py (__init__:20] - <查询治疗方案列表接口（分页）>的url地址为：http://192.168.8.230:8083/icdm-controller/treatPlan/selectTreatPlanList/
+2021-03-16 13:57:26,722 INFO [root] [api_select_treat_planlist.py (select_treat_planlist:29] - 准备发起<查询治疗方案列表接口（分页）>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,747 INFO [root] [api_select_treat_planlist.py (select_treat_planlist:32] - 请求的url是：http://192.168.8.230:8083/icdm-controller/treatPlan/selectTreatPlanList/
+2021-03-16 13:57:26,747 INFO [root] [api_select_treat_planlist.py (select_treat_planlist:33] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,751 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,751 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,751 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,751 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,771 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,772 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,772 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,772 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,772 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:26,772 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:26,773 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,783 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,784 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,784 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:26,784 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:26,784 INFO [root] [api_statistics_by_district.py (__init__:17] - 开始获取<查询各地区慢病患者统计接口>的url地址：
+2021-03-16 13:57:26,784 INFO [root] [api_statistics_by_district.py (__init__:20] - <查询各地区慢病患者统计接口>的url地址为：http://192.168.8.230:8083/icdm-controller/dataBoard/patientStatisticsByDistrict/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:26,786 INFO [root] [api_statistics_by_district.py (statistics_by_district:25] - 准备发起<查询各地区慢病患者统计接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,875 INFO [root] [api_statistics_by_district.py (statistics_by_district:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/dataBoard/patientStatisticsByDistrict/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:26,875 INFO [root] [api_statistics_by_district.py (statistics_by_district:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,886 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:26,886 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:26,886 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:26,887 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:26,911 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:26,912 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,912 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:26,912 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,912 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:26,913 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:26,913 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:26,928 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:26,928 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:26,928 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:26,929 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:26,929 INFO [root] [api_trend_by_sexage.py (__init__:17] - 开始获取<查询患者年龄性别分布接口>的url地址：
+2021-03-16 13:57:26,929 INFO [root] [api_trend_by_sexage.py (__init__:20] - <查询患者年龄性别分布接口>的url地址为：http://192.168.8.230:8083/icdm-controller/dataBoard/patientTrendBySexAge/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:26,932 INFO [root] [api_trend_by_sexage.py (trend_by_sexage:25] - 准备发起<查询患者年龄性别分布接口>的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:27,035 INFO [root] [api_trend_by_sexage.py (trend_by_sexage:28] - 请求的url是：http://192.168.8.230:8083/icdm-controller/dataBoard/patientTrendBySexAge/9b292f05-20e7-4070-97a7-2f4e3199171b
+2021-03-16 13:57:27,035 INFO [root] [api_trend_by_sexage.py (trend_by_sexage:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,040 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:27,040 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:27,041 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'cun01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:27,041 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：cun01,请求的密码是：123456
+2021-03-16 13:57:27,062 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,062 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-16 13:57:27,062 INFO [root] [api_get_token.py (get_token:38] - 获取的token是：f615752a-8572-4f1b-b3d1-617928544e0e
+2021-03-16 13:57:27,079 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:27,079 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:27,098 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,098 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-16 13:57:27,098 INFO [root] [api_get_token.py (get_token:38] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:27,103 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'dsqwsj', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:27,103 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：dsqwsj,请求的密码是：123456
+2021-03-16 13:57:27,122 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,122 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-16 13:57:27,122 INFO [root] [api_get_token.py (get_token:38] - 获取的token是：41004514-3fbf-4812-b1d1-bd89a94f9fa2
+2021-03-16 13:57:27,127 INFO [root] [api_get_token.py (get_token:30] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'ordos', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:27,127 INFO [root] [api_get_token.py (get_token:31] - 请求的用户名是：ordos,请求的密码是：123456
+2021-03-16 13:57:27,170 INFO [root] [api_get_token.py (get_token:34] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,170 INFO [root] [api_get_token.py (get_token:35] - 准备获取响应值的token
+2021-03-16 13:57:27,170 INFO [root] [api_get_token.py (get_token:38] - 获取的token是：0ec1ed99-cbae-495a-b643-425d5b55ece4
+2021-03-16 13:57:27,176 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:27,176 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:27,176 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:27,176 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:27,195 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:27,195 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,195 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:27,195 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:27,195 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:27,196 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:27,196 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:27,205 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:27,205 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,205 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:27,206 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:27,206 INFO [root] [api_pos_emps.py (__init__:15] - 开始获医卫人员信息的url地址：
+2021-03-16 13:57:27,206 INFO [root] [api_pos_emps.py (__init__:17] - 获取医卫人员信息的地址是http://192.168.1.46:8081/OpenPlatformService/public/pos/emps
+2021-03-16 13:57:27,206 INFO [root] [api_pos_emps.py (pos_emps:24] - 准备发起获取医卫人员信息的请求，请求的参数是{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8', 'pos_id': '60f5462b-2b4f-4cad-9645-83e1be0af87f'}，header是{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:27,255 INFO [root] [api_pos_emps.py (pos_emps:27] - 请求的url是：http://192.168.1.46:8081/OpenPlatformService/public/pos/emps?access_token=c8803682-0259-489f-9d22-2ba953c948c8&pos_id=60f5462b-2b4f-4cad-9645-83e1be0af87f
+2021-03-16 13:57:27,256 INFO [root] [api_pos_emps.py (pos_emps:28] - 获取的响应值是<Response [200]>
+2021-03-16 13:57:27,265 INFO [root] [api_get_token.py (__init__:13] - 开始获取token的url地址：
+2021-03-16 13:57:27,266 INFO [root] [api_get_token.py (__init__:16] - 获取token的url地址为：http://192.168.1.46:8080/pm-oauth/oauth/token
+2021-03-16 13:57:27,266 INFO [root] [api_get_token.py (get_token_success:52] - 准备发起获取token的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'grant_type': 'password', 'username': 'xiang01', 'password': '123456', 'client_id': '8b38b6f11f894b7498fd92d52ef276c7', 'client_secret': '9bc555f6b3224cf3a600206008e2b4d2'}
+2021-03-16 13:57:27,266 INFO [root] [api_get_token.py (get_token_success:53] - 请求的用户名是：xiang01,请求的密码是：123456
+2021-03-16 13:57:27,289 INFO [root] [api_get_token.py (get_token_success:56] - 请求的url是：http://192.168.1.46:8080/pm-oauth/oauth/token?grant_type=password&username=xiang01&password=123456&client_id=8b38b6f11f894b7498fd92d52ef276c7&client_secret=9bc555f6b3224cf3a600206008e2b4d2
+2021-03-16 13:57:27,289 INFO [root] [api_get_token.py (get_token_success:57] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,289 INFO [root] [api_get_token.py (get_token_success:58] - 准备获取响应值的token
+2021-03-16 13:57:27,290 INFO [root] [api_get_token.py (get_token_success:61] - 获取的token是：c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:27,290 INFO [root] [api_pos_sessions.py (__init__:17] - 开始获取当前登录用户信息接口的url地址：
+2021-03-16 13:57:27,290 INFO [root] [api_pos_sessions.py (__init__:20] - 获取当前登录用户信息接口的url地址为：http://192.168.1.46:8080/pm-oauth/pos/sessions
+2021-03-16 13:57:27,291 INFO [root] [api_pos_sessions.py (pos_session:25] - 准备发起获取当前登录用户信息接口的请求，请求的header是：{'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/json', 'access-token': 'c8803682-0259-489f-9d22-2ba953c948c8'},请求的参数是：{'access_token': 'c8803682-0259-489f-9d22-2ba953c948c8'}
+2021-03-16 13:57:27,302 INFO [root] [api_pos_sessions.py (pos_session:28] - 请求的url是：http://192.168.1.46:8080/pm-oauth/pos/sessions?access_token=c8803682-0259-489f-9d22-2ba953c948c8
+2021-03-16 13:57:27,302 INFO [root] [api_pos_sessions.py (pos_session:29] - 获取的响应值是：<Response [200]>
+2021-03-16 13:57:27,302 INFO [root] [api_pos_sessions.py (pos_session:30] - 准备获取响应值的pos_id
+2021-03-16 13:57:27,303 INFO [root] [api_pos_sessions.py (pos_session:34] - 获取的pos_id是：60f5462b-2b4f-4cad-9645-83e1be0af87f

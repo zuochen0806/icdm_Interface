@@ -1,0 +1,14 @@
+test_get_token:
+  # 测试用例编号，第一条测试用例
+  test_get_token_001:
+    username: "cun01"
+    password: '123456'
+  test_get_token_002:
+    username: "xiang01"
+    password: '123456'
+  test_get_token_003:
+    username: "dsqwsj"
+    password: '123456'
+  test_get_token_004:
+    username: "ordos"
+    password: '123456'

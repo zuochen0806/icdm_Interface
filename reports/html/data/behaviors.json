@@ -1,0 +1,476 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "治疗方案模块",
+    "children" : [ {
+      "name" : "用户正常登录后，删除治疗方案",
+      "children" : [ {
+        "name" : "删除治疗方案接口的测试用例",
+        "uid" : "eee40078d6ae32ff",
+        "parentUid" : "38bc4a4beb105a75fa4c4e846e2ed843",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390930758,
+          "stop" : 1616390930758,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38bc4a4beb105a75fa4c4e846e2ed843"
+    }, {
+      "name" : "用户正常登录后，查询治疗方案列表",
+      "children" : [ {
+        "name" : "查询治疗方案列表接口的测试用例",
+        "uid" : "281e935d5ee6762d",
+        "parentUid" : "96f396c725c2093e7d9b0c6ad81b3e09",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931988,
+          "stop" : 1616390931988,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96f396c725c2093e7d9b0c6ad81b3e09"
+    }, {
+      "name" : "用户正常登录后，根据治疗方案id查询治疗方案详情",
+      "children" : [ {
+        "name" : "根据治疗方案id查询治疗方案详情接口的测试用例",
+        "uid" : "e89a8b274506f1a4",
+        "parentUid" : "b4e6198d0c223f841d9fd30d1b8d8851",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932042,
+          "stop" : 1616390932042,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4e6198d0c223f841d9fd30d1b8d8851"
+    }, {
+      "name" : "用户正常登录后，新增/编辑治疗方案",
+      "children" : [ {
+        "name" : "新增/编辑治疗方案接口的测试用例",
+        "uid" : "2f1371886c27fb3d",
+        "parentUid" : "7c6095d330e7ae2062132026362bc0c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932220,
+          "stop" : 1616390932220,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c6095d330e7ae2062132026362bc0c0"
+    } ],
+    "uid" : "1a8e1e03e01d4fc87fcccb2aca33a190"
+  }, {
+    "name" : "第三方实时同步模块",
+    "children" : [ {
+      "name" : "用户正常登录后，第三方实时同步糖尿病确诊接口",
+      "children" : [ {
+        "name" : "实时同步高血压确诊接口的测试用例",
+        "uid" : "15c2f134a0f5f469",
+        "parentUid" : "64ba6d9da1ee105b46724397d8f44903",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390930989,
+          "stop" : 1616390930989,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64ba6d9da1ee105b46724397d8f44903"
+    }, {
+      "name" : "用户正常登录后，第三方实时同步糖尿病高危、疑似接口",
+      "children" : [ {
+        "name" : "实时同步糖尿病高危、疑似接口的测试用例",
+        "uid" : "508a4cae04f8bfc6",
+        "parentUid" : "86911de5e12d280c5d5d0a393ef948d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931041,
+          "stop" : 1616390931041,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86911de5e12d280c5d5d0a393ef948d5"
+    }, {
+      "name" : "用户正常登录后，第三方实时同步高血压确诊接口",
+      "children" : [ {
+        "name" : "实时同步高血压确诊接口的测试用例",
+        "uid" : "b4305eb9aa6b3d2f",
+        "parentUid" : "85052a92b61090e868139b927b22d4c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931224,
+          "stop" : 1616390931224,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85052a92b61090e868139b927b22d4c7"
+    }, {
+      "name" : "用户正常登录后，第三方实时同步高血压高危、疑似接口",
+      "children" : [ {
+        "name" : "实时同步高血压高危、疑似接口的测试用例",
+        "uid" : "b71302aee4c31c2",
+        "parentUid" : "190e62ed3deee2be44c1f8138355ebb5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931290,
+          "stop" : 1616390931290,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "190e62ed3deee2be44c1f8138355ebb5"
+    } ],
+    "uid" : "18489d9843f677736bb8e2ea2edde713"
+  }, {
+    "name" : "字典相关模块",
+    "children" : [ {
+      "name" : "用户正常登录后，查询当前用户所在区划",
+      "children" : [ {
+        "name" : "查询当前用户所在区划接口的测试用例",
+        "uid" : "912f68df9359c26",
+        "parentUid" : "15c6266f489b2aae1f4a3c8075dc401d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931091,
+          "stop" : 1616390931091,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15c6266f489b2aae1f4a3c8075dc401d"
+    }, {
+      "name" : "用户正常登录后，根据机构Id查询子级机构信息",
+      "children" : [ {
+        "name" : "根据机构Id查询子级机构信息的测试用例",
+        "uid" : "24b6925d6bed54e2",
+        "parentUid" : "10972681bd6fd0117e7778d59a7fa49c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931476,
+          "stop" : 1616390931476,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10972681bd6fd0117e7778d59a7fa49c"
+    }, {
+      "name" : "用户正常登录后，获取当前用户机构下拉列表初始化数据",
+      "children" : [ {
+        "name" : "查询当前用户机构下拉列表初始化数据接口的测试用例",
+        "uid" : "9de3a4ff157eaf4d",
+        "parentUid" : "bfa400f8b8f671aee3f64a6e0d3d9a84",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931535,
+          "stop" : 1616390931535,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bfa400f8b8f671aee3f64a6e0d3d9a84"
+    }, {
+      "name" : "用户正常登录后，查询当前登录用户角色信息",
+      "children" : [ {
+        "name" : "查询当前登录用户角色信息接口的测试用例",
+        "uid" : "1b787dd343e12b37",
+        "parentUid" : "39ba732e33146daad57f9f109f0bb292",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931691,
+          "stop" : 1616390931691,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39ba732e33146daad57f9f109f0bb292"
+    }, {
+      "name" : "用户正常登录后，查询所有专家角色信息",
+      "children" : [ {
+        "name" : "查询所有专家角色信息接口的测试用例",
+        "uid" : "fd84c5ef88f2fe1c",
+        "parentUid" : "c97a1aa7bef592584a7d292e09c4c589",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931788,
+          "stop" : 1616390931788,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c97a1aa7bef592584a7d292e09c4c589"
+    }, {
+      "name" : "用户正常登录后，查询当前用户菜单字典",
+      "children" : [ {
+        "name" : "查询当前用户菜单字典接口的测试用例",
+        "uid" : "3ad84b4850223124",
+        "parentUid" : "9197e36b45ac9ced66f8e10d215865f4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931850,
+          "stop" : 1616390931850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9197e36b45ac9ced66f8e10d215865f4"
+    } ],
+    "uid" : "9773d7491d9417b20bb6874eee33d73f"
+  }, {
+    "name" : "济南慢病大屏模块",
+    "children" : [ {
+      "name" : "用户正常登录后，查询患者动态趋势分布",
+      "children" : [ {
+        "name" : "查询患者动态趋势分布接口的测试用例",
+        "uid" : "d403f1c54f2c6832",
+        "parentUid" : "316b7df7d70087a7ef2dd8cc0229db28",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931170,
+          "stop" : 1616390931170,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "316b7df7d70087a7ef2dd8cc0229db28"
+    }, {
+      "name" : "用户正常登录后，系统联动总体分布统计",
+      "children" : [ {
+        "name" : "系统联动总体分布统计接口的测试用例",
+        "uid" : "8c6434264282d7b7",
+        "parentUid" : "002bb1e9b55bd67cf81b608a420ab5bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931351,
+          "stop" : 1616390931351,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "002bb1e9b55bd67cf81b608a420ab5bf"
+    }, {
+      "name" : "用户正常登录后，查询各地区慢病患者管理排名",
+      "children" : [ {
+        "name" : "查询各地区慢病患者管理排名接口的测试用例",
+        "uid" : "46f9fca7bafc232b",
+        "parentUid" : "c8b696d7866cf32caec341880fee60d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931415,
+          "stop" : 1616390931415,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8b696d7866cf32caec341880fee60d0"
+    }, {
+      "name" : "用户正常登录后，查询慢病患者总体统计（地图）",
+      "children" : [ {
+        "name" : "查询慢病患者总体统计接口（地图）的测试用例",
+        "uid" : "1509a3cc816a5117",
+        "parentUid" : "977294ed361cc5c5e78aff35509d7631",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931613,
+          "stop" : 1616390931613,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "977294ed361cc5c5e78aff35509d7631"
+    }, {
+      "name" : "用户正常登录后，查询各地区慢病患者统计",
+      "children" : [ {
+        "name" : "查询各地区慢病患者统计接口的测试用例",
+        "uid" : "8c1ae18310ca1ad0",
+        "parentUid" : "4a66c2f6283ba9eb3455a61ed3b1c44d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932095,
+          "stop" : 1616390932095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a66c2f6283ba9eb3455a61ed3b1c44d"
+    }, {
+      "name" : "用户正常登录后，查询患者年龄性别分布",
+      "children" : [ {
+        "name" : "查询患者年龄性别分布接口的测试用例",
+        "uid" : "8b083b157de0b250",
+        "parentUid" : "a40f7084122434ce56c376cf7bd5790a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932157,
+          "stop" : 1616390932157,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a40f7084122434ce56c376cf7bd5790a"
+    } ],
+    "uid" : "8c37d6db49e052c4d3f21a9da64c3356"
+  }, {
+    "name" : "药品管理模块",
+    "children" : [ {
+      "name" : "用户正常登录后，查询药品列表",
+      "children" : [ {
+        "name" : "查询药品列表接口的测试用例",
+        "uid" : "fd906875e5359c30",
+        "parentUid" : "61978995a7f965c8d54a729364587b57",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390931932,
+          "stop" : 1616390931932,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61978995a7f965c8d54a729364587b57"
+    } ],
+    "uid" : "8c6fa8193cae134f31a77101e6be6c0e"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "用户密码正确，成功获取token",
+      "children" : [ {
+        "name" : "获取token接口的测试用例",
+        "uid" : "3c5c4fce7013fb47",
+        "parentUid" : "8b0f691164b450efe037ecd9b0962ed0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932286,
+          "stop" : 1616390932295,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'cun01', 'password': '123456'}" ]
+      }, {
+        "name" : "获取token接口的测试用例",
+        "uid" : "5990c115a66097cf",
+        "parentUid" : "8b0f691164b450efe037ecd9b0962ed0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932384,
+          "stop" : 1616390932392,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'xiang01', 'password': '123456'}" ]
+      }, {
+        "name" : "获取token接口的测试用例",
+        "uid" : "a2f255183168b101",
+        "parentUid" : "8b0f691164b450efe037ecd9b0962ed0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932441,
+          "stop" : 1616390932450,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'dsqwsj', 'password': '123456'}" ]
+      }, {
+        "name" : "获取token接口的测试用例",
+        "uid" : "bbc9135a68ee05c0",
+        "parentUid" : "8b0f691164b450efe037ecd9b0962ed0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932505,
+          "stop" : 1616390932511,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'ordos', 'password': '123456'}" ]
+      } ],
+      "uid" : "8b0f691164b450efe037ecd9b0962ed0"
+    }, {
+      "name" : "用户正常登录后，获取医卫人员信息",
+      "children" : [ {
+        "name" : "获取医卫人员信息接口的测试用例",
+        "uid" : "e5f3b2f1700e310e",
+        "parentUid" : "0d97b89cd0ee214459908a9a842dd96f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932553,
+          "stop" : 1616390932553,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d97b89cd0ee214459908a9a842dd96f"
+    }, {
+      "name" : "用户正常登录后，获取用户信息",
+      "children" : [ {
+        "name" : "获取当前登录用户信息接口的测试用例",
+        "uid" : "9c4a641f29bd44f8",
+        "parentUid" : "c37faca3774c5167231a4e5dfef5dc45",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616390932617,
+          "stop" : 1616390932617,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c37faca3774c5167231a4e5dfef5dc45"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}
