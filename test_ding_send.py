@@ -28,8 +28,8 @@ report_url = job_last_build_url + 'allure/'
 def DingTalkSend():
     d = {}
     # 打开prometheusData 获取需要发送的信息
-    # f = open(DIR_NAME + r'/allure-report/export/prometheusData.txt', 'r')
-    f = open(DIR_NAME + r'/reports/html/export/prometheusData.txt', 'r')
+    f = open(DIR_NAME + r'/allure-report/export/prometheusData.txt', 'r')
+    # f = open(DIR_NAME + r'/reports/html/export/prometheusData.txt', 'r')
     for lines in f:
         for c in lines:
             launch_name = lines.strip('\n').split(' ')[0]
